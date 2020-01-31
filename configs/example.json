@@ -1,0 +1,14 @@
+{
+	"hosts":["sender","receiver"],
+	"topics":[
+		{
+			"id":"example-topic",
+			"protocol":"tcp",
+			"paradigm":"pubsub",
+			"address":"127.0.0.1",
+			"port":"5555",
+			"pub":"sender",
+			"sub":["receiver"]
+		}
+	]
+}

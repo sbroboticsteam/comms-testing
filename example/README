@@ -1,0 +1,31 @@
+
+============================================================================
+This is an example of how to test communication between modules.
+
+In this directory, there are two example modules: Sender and Receiver.
+
+The config file describing the connection between them is in example.json
+in the configs directory.
+
+The script that starts up these modules is example.py in the starters
+directory.
+
+To run this example test, cd to the starters directory and run
+$ python example.py
+
+
+============================================================================
+DIRECTIONS TO TEST YOUR OWN MODULES:
+
+1. Create a json config file for the modules you want to test.
+	
+	You can use the configurator app to generate the json. 
+	Type the following command in terminal to open the app:
+	$ commsconf
+	
+	*just remember that the name of each host(=module) needs to
+	match the one in your code, and the id of each topic is going
+	to be the string you send to the send/recv/etc. methods*
+
+2. Make a copy of example.py (in the starters directory), and replace
+   the imports and constants with those for your own modules.
