@@ -1,0 +1,14 @@
+{
+	"hosts":["ultrasonic","test_receiver"],
+	"topics":[
+		{
+			"id":"sensors",
+			"protocol":"tcp",
+			"paradigm":"pubsub",
+			"address":"127.0.0.1",
+			"port":"5555",
+			"pub":"ultrasonic",
+			"sub":["test_receiver"]
+		}
+	]
+}

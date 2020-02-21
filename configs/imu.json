@@ -1,0 +1,1 @@
+{"hosts":["usb_imu","test-receiver"],"topics":[{"id":"IMU_RAW","protocol":"tcp","paradigm":"pubsub","address":"127.0.0.1","port":"5555","pub":"usb_imu","sub":["test-receiver"]}]}
